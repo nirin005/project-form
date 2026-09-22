@@ -1,0 +1,102 @@
+img{
+
+    width: 13%;
+    height: 30%;
+    border-radius: 50px;
+    animation:  respirer 3s ease-in-out infinite;
+}
+@keyframes respirer {
+  0%{
+    transform: scale(1);
+     box-shadow: 0 0 0px rgba(52,152,219,0.4);
+
+  }
+  50%{
+     transform: scale(1.10);
+     box-shadow: 0 0 0px rgba(52,152,219,0.6);
+  }
+  100%{
+     transform: scale(1);
+     box-shadow: 0 0 0px rgba(52,152,219,0.4);
+
+  }
+}
+
+#formbull{
+    display: none;
+     text-align: center;
+     
+     
+}
+.form {
+  margin-bottom: 15px;   display: block; }
+
+.form label {
+  display: inline-block;
+  width: 150px;        
+  text-align: right;   
+  margin-right: 15px;  
+}
+
+.form input {
+  display: inline-block;
+  width: 300px;
+   box-sizing: border-box;
+}
+table{
+  
+  width: 85%;          
+  max-width: 900px;    
+  margin: 2rem auto;   
+  border-collapse: collapse;
+}
+
+
+   
+td,th{
+    border: 1px solid black;
+    padding: 6px;
+}
+tbody input{
+    width:100%;
+    border:1px solid var(--line);
+    border-radius:5px;
+    padding:3px;
+    text-align:center;
+    font-size:14px;
+  }
+  tbody input:focus{
+    outline:none;
+    border-color:var(--accent);
+    box-shadow:0 0 0 2px rgba(47,95,174,0.15);
+  }
+ 
+  #tab{
+    display: none;
+    text-align: center;
+  margin-bottom: 15px;   gap: 10px;
+  }
+  .btn-reset{
+    background-color: rgb(22, 22, 234);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .btn-reset:hover{
+    background-color: rgb(112, 175, 226);
+  }
+ .sai{
+  background-color: rgb(22, 22, 234);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ .sai:hover{
+  background-color: rgb(112, 175, 226);
+ } 

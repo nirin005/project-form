@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+<body class="contenu">
+    <header>
+        <div>
+    <img src="avatar.png" alt="" id="photo">
+    </div>
+        <h1 id="formbull">BULLETIN DE NOTES</h1>
+    </header>
+    
+
+    <div id="sai" class="contenu">
+        <input type="button" value="saisir" onclick="ca()" class="sai">
+        </div>
+        <div class="contenu">
+        <input type="button" value="calclul" onclick="calL()"  class="sai">
+    </div>
+    
+    <div  id="tab">
+        <form action="" class="champ">
+            <div class="form">
+                <label for="">Nom</label>
+            <input type="text"><br>
+            </div>
+           <div class="form"> 
+            <label for="">Numéro matricule </label>
+            <input type="text"><br>
+        </div>
+            <div class="form">
+                <label for="">filiere</label>
+            <input type="text"><br>
+            </div>
+        </form>
+        
+    <table >
+       <thead>
+         <tr>
+                 <th>matieres</th>
+                 <th>coefficient</th>
+                  <th>note/20</th>
+                   <th>note pondere</th>
+                
+            </tr>
+
+       </thead>
+       <tbody >
+                    
+                 <tr >
+                <td><input type="text" name="" id="" ></td>
+                <td><input type="number" name="" class="coef" ></td>
+                 <td><input type="number" name="" class="not" ></td>
+                 <td><input type="text" name=""  class="notpondere"></td>
+                 </tr>
+                 
+                 <tr>
+                    <td><input type="text" name="" id=""class=""></td>
+                <td><input type="number" name="" id=""  class="coef"></td>
+                 <td><input type="number" name="" id="" class="not"></td>
+                 <td><input type="text" name="somme"  class="notpondere"  ></td>
+                 </tr>
+                 <tr>
+                    <td><input type="text" name="" id=""class="" ></td>
+                <td><input type="number" name="" id=""  class="coef"></td>
+                 <td><input type="number" name="" id=""  class="not"></td>
+                 <td><input type="text" name="" id=""  class="notpondere" ></td>
+                 </tr>
+                 <tr>
+                    <td><input type="text" name="" id="" class=""></td>
+                <td><input type="number" name="" id="" class="coef"></td>
+                 <td><input type="number" name="" id="" class="not"></td>
+                 <td><input type="text" name="" id=""   class="notpondere" ></td>
+                 </tr>
+                
+                    <tr>
+                        <td colspan="3">total coefficient </td>
+                         <td><input type="number" name="" id="total-coef"  readonly></td>
+                    </tr>
+                      <tr>
+                        <td colspan="3">total note pondere </td>
+                        <td><input type="number" name="" id="total-ponderer" readonly></td>
+                    </tr>
+                      <tr>
+                        <td colspan="3" >moyenne </td>
+                        <td><input type="number" name="" id="moyenne" readonly></td>
+                        
+                       
+                       
+                    </tr>
+                        <tr>
+                            <td colspan="3">decision</td>
+                            <td><input type="text" name="" id="decision"  readonly></td>
+                        
+                         </tr>
+
+
+
+
+    </table>
+    </div>  
+    
+<script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+   <input type="button" value="reinitialiser" id="reset" class="btn-reset" onclick="reinitialiserTout()"> 
+</body>
+</html>
